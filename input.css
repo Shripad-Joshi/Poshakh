@@ -1,0 +1,81 @@
+html{
+	min-height:100%;
+    position:relative;
+}
+
+body{
+    margin:0 0 100px;
+    padding: 0px;
+	padding-bottom:10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h5{
+	margin-left:30%;
+	margin-top:0;
+    color: black;
+    transition: 1s;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+    overflow: visible;	
+}
+.link{
+    cursor: pointer;
+}
+.signUpForm{
+    width: 40%;
+    margin: 0px auto;
+    background-color: white;
+    border-radius: 8px;
+	margin-top:02%;
+}
+.signUpHeading{
+	text-align:center;
+    background-color: #31F6EC;
+    padding: 10px;
+    color:white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-size: 150%;
+}
+.input{
+    background: none;
+    border: none;
+    background-color: #31F6EC;
+    padding: 10px;
+    margin: 4px auto;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    transition: 1s;
+}
+.text{
+    color: #82858E;
+    font-size: 80%;
+}
+.submitBtn {
+    background: none;
+    border: none;
+    background-color: rgb(56, 164, 231);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 30%;
+    transition: 1s;
+    cursor: pointer;
+	margin-left:35%;
+}
+.submitBtn:hover {
+    background-color: #31F6EC;
+}

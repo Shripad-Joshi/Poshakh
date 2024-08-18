@@ -1,0 +1,74 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 600px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size:20px;
+  margin-top:5px;
+  font-family:Arial Rounded MT Bold;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 ;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width:600px;
+  font-size:18px;
+  font-family:Bahnschrift SemiCondensed;
+}
+</style>
+</head>
+<body>
+<button type=button class="collapsible" >How can I pay for my order at POSHAKH.com?</button>
+<div class="content"><pre>
+We support the following payment options at Myntra:
+Cash On Delivery (available in selected pin codes)
+Credit Card
+Debit Card
+</pre>
+</div>
+
+
+<button type=button class="collapsible" >Will the delivery be tried again if I'm not able to collect my order the first time?</button>
+<div class="content"><p>
+Couriers make sure that the delivery is re-attempted 
+the next working day if you can't collect your order the first time.
+</p>
+</div>
+
+<button type=button class="collapsible" >The delivery of my order is delayed. What should I do?</button>
+<div class="content"><p>On the rare occasion that your order is delayed, please check your email & messages for updates. A new delivery timeframe will be shared with you and you can also track its status by visiting My Orders.
+</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

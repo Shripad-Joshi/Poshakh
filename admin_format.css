@@ -1,0 +1,17 @@
+select{
+	width:140px;
+	height:30px; 
+	text-align:center-left; 
+	margin-top:20; 
+	float:left; 
+	font-size:18px;
+}
+input.button{
+	width:140px;
+	height:30px; 
+	text-align:center-left; 
+	background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+}
+
